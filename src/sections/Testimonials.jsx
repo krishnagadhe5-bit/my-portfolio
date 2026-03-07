@@ -25,7 +25,7 @@ const testimonials = [
   },
   {
     name: "Aditya Kshirsagar",
-    role: "Fruntend Instructor at NxtWave",
+    role: "Frontend Instructor at NxtWave",
     review:
       "As a frontend instructor, I’ve seen Krishna blend design clarity with clean, efficient frontend code.",
     image: m2,

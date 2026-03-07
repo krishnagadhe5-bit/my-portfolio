@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.jpg";
+import img1 from "../assets/img1.png";
+
 import img3 from "../assets/img3.jpeg";
-import photo1 from "../assets/photo1.jpeg";
-import photo2 from "../assets/photo2.jpg";
+import photo1 from "../assets/photo1.png";
+
 import photo3 from "../assets/photo3.jpg";
 import {
   motion,
@@ -41,15 +41,9 @@ export default function Projects() {
     () => [
       {
         title: "AI ChatBot",
-        link: "https://www.chatgpt.com",
+        link: "https://aikare-ai.vercel.app/",
         bgColor: "#0d4d3d",
         image: isMobile ? photo1 : img1,
-      },
-      {
-        title: "Smart SeedLearning",
-        link: "https://kids.usmint.gov/",
-        bgColor: "#3884d3",
-        image: isMobile ? photo2 : img2,
       },
       {
         title: "SafeMiles",
