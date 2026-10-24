@@ -24,7 +24,7 @@ const glowVariants = {
 }
 
 export default function Home() {
-const roles = useMemo(() => ["Web Developer", "Frontend Developer", "Backend Developer"], []);
+const roles = useMemo(() => ["AI & DS Student", "Full-Stack Developer", "MERN-Stack Developer"], []); 
 
 
 const [index , setIndex] = React.useState(0);
@@ -113,11 +113,11 @@ style={{height: "1em"}}
     
     Hello, I'm
     <br />
-    GenZ coder
-    <br />
+    {/* GenZ coder
+    <br /> */}
     
     <span className="text-white font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl lg:whitespace-nowrap">
-      Krishna Gadhe  
+      Krushna Gadhe  
     </span> 
 
 
@@ -129,7 +129,7 @@ style={{height: "1em"}}
   animate={{opacity:1, y:0}}
   transition={{delay: 0.4, duration: 0.8}}
   >
-    I turn complex ideas into seamless, high-impact web experiences - building modern, scalable, and lightning-fast application that make a difference.
+    I turn bold ideas into intelligent digital experiences, combining modern web technologies and AI to build impactful solutions to real-world problems.
   </motion.p>
 
 
@@ -142,11 +142,11 @@ style={{height: "1em"}}
 <a href="#projects" 
 className="px-6 py-3 rounded-full font-medium text-lg text-white bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]
 shadow-lg hover:scale-105 transition-all"
->View My Work</a>
-<a href="/Krushna Gadhe.pdf"
+>View My Projects</a>
+<a href="/Krushna Gadhe resume.pdf"
 download
 className="px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover:scale-105 transition-all"
->My Resume</a>
+>Download Resume</a>
 </motion.div>
 
 <div className="mt-10 flex - gap-5 text-2xl md:text-3xl justify-center lg:justify-start">

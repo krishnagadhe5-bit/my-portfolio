@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import img1 from "../assets/img1.png";
-
-import img3 from "../assets/img3.jpeg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
 import photo1 from "../assets/photo1.png";
-
+import photo2 from "../assets/photo2.jpg";
 import photo3 from "../assets/photo3.jpg";
 import {
   motion,
@@ -40,6 +40,13 @@ export default function Projects() {
   const projects = useMemo(
     () => [
       {
+        title: "Krishisetu",
+        link: "https://krishisetu-client.onrender.com/",
+        bgColor: "#07550a",
+        image: isMobile ? photo2 : img2,
+
+      },
+      {
         title: "AI ChatBot",
         link: "https://aikare-ai.vercel.app/",
         bgColor: "#0d4d3d",
@@ -48,7 +55,7 @@ export default function Projects() {
       {
         title: "SafeMiles",
         link: "https://sarthi-chi.vercel.app/",
-        bgColor: "#dc9317",
+        bgColor: "#8f26e6",
         image: isMobile ? photo3 : img3,
       },
     ],
@@ -79,7 +86,7 @@ export default function Projects() {
       className="relative text-white"
       style={{
         height: `${100 * projects.length}vh`,
-        backgroundColor: activeProject.bgColor,
+        backgroundColor:activeProject.bgColor,
         transition: "background-color 400ms ease",
       }}
     >

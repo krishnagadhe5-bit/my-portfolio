@@ -18,10 +18,10 @@ const experiences =  [
     description: "Developed a weather prediction and rainfall alert system using NASA weather and satellite data.",
   },
   {
-    role: "OpenAI",
-    company: "OpenAI Hackathon",
-    duration: "2025",
-    description: "Contributed to an AI-based solution using OpenAI APIs for real-time data analysis and user interaction. ",
+    role: "E-cell",
+    company: "IIT Bombay Leader",
+    duration: "2026",
+    description: "E-Cell IIT Bombay Startup & Incubation Lead, passionate about entrepreneurship, innovation, and organizing Eureka Startup Pitching events. ",
   },
 ];
 

@@ -48,7 +48,7 @@ textShadow: "0 2px 18px rgba(0,0,0,0.45)"
 
 
         >
-          Krishna Gadhe
+          Krushna Gadhe
         </h1>
 
         <div className="h-[3px] w-24 md:w-32 rounded-full bg-gradient-to-r from-[#0d58cc] via-cyan-300 to-emerald-400"/>
@@ -76,11 +76,11 @@ className="text-gray-300 transition-colors duration-200 inline-flex items-center
 
 
 <p className="text-gray-300 italic max-w-xl">
-"Success is when preparation meets opportunity."
+"Building solutions. Learning continuously. Creating impact."
 </p>
 
 <p className="text-xs text-gray-400">
-| &copy; {new Date().getFullYear()} Krishna Gadhe. All rights reserved.
+| &copy; {new Date().getFullYear()} Krushna Gadhe. All rights reserved.
 </p>
 
 

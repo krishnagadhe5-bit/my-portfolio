@@ -5,8 +5,8 @@ import p from "../assets/p.jpg";
 
  export default function About(){
 const states = [
-  {lable : "Experience", value: "1+ Years"},
-  {lable : "Spaciality", value: "Full stack"},
+  {lable : "Year", value: "2nd Year"},
+  {lable : "Spaciality", value: "Full-stack Developer"},
   {lable : "Focus", value: "performance & UX"},
 ];
 
@@ -55,13 +55,16 @@ transition={{duration:0.6}}
   <div>
     <h2 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#1cd8d2]
     ">
-      Krishna Gadhe 
+      Krushna Gadhe 
     </h2>
 <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
-  Full Stack Developer 
+  B.Tech in Artificial Intelligence and Data Science (AI & DS)
+</p>
+<p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
+  Sanjay Ghodawat University, Kolhapur. 
 </p>
 <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-  I build scalable, modern application with a strong focus on clean architecture, delightful UX, and performance. My toolkit soans Java, React, Next.js, TypeScript, Tailwind CSS, and RestfulAPI- bringing ideas to life from concept to production with robust APIs and smooth interfaces.
+  I'm passionate about full-stack development and AI, building practical solutions that solve real-world problems while continuously growing my technical skills.
 </p>
 
 <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl">

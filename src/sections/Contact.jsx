@@ -430,7 +430,7 @@ export default function Contact() {
           viewport={{ once: true }}
         >
           <h2 className="mb-6 text-3xl font-bold">
-            Let's Work Together
+            Connect with me
           </h2>
 
           <form
@@ -517,7 +517,7 @@ export default function Contact() {
                   value="Mobile Application"
                   className="text-black"
                 >
-                  Mobile Application
+                  Backend Development
                 </option>
 
                 <option value="other" className="text-black">
@@ -564,7 +564,7 @@ export default function Contact() {
             {/* Project idea */}
             <div className="flex flex-col">
               <label htmlFor="idea" className="mb-1">
-                Explain Your Idea{" "}
+                Write here{" "}
                 <span className="text-red-500">*</span>
               </label>
 
@@ -572,7 +572,7 @@ export default function Contact() {
                 id="idea"
                 name="idea"
                 rows={5}
-                placeholder="Enter Your Idea"
+                placeholder="Draft here"
                 value={formData.idea}
                 onChange={handleChange}
                 className={`rounded-md border bg-white/10 p-3 text-white focus:border-blue-500 focus:outline-none ${

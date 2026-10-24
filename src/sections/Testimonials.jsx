@@ -1,8 +1,8 @@
 import { motion } from "framer-motion"
-import m1 from "../assets/m1.jpeg"
-import m2 from "../assets/m2.jpeg"
-import w1 from "../assets/w1.jpeg"
-import w2 from "../assets/w2.jpeg"
+import m1 from "../assets/m1.png"
+import m2 from "../assets/m2.png"
+import w1 from "../assets/w1.png"
+import w2 from "../assets/w2.png"
 
 
 
@@ -10,31 +10,31 @@ import w2 from "../assets/w2.jpeg"
 
 const testimonials = [
   {
-    name: "Sameer Jadhav",
-    role: "Computer Programing Instructor at NxtWave",
+    name: "Full-Stack Development",
+    // role: "Computer Programing Instructor at NxtWave",
     review:
-      "Krishna is a visionary developer whose creativity and attention to detail played a crucial role in our project’s success.",
+      "Building responsive web applications with modern frontend and backend technologies.",
     image: m1,
   },
   {
-    name: "Prajwal More",
-    role: "Computer Programing Instructor at NxtWave",
+    name: "AI & Machine Learning",
+    // role: "Computer Programing Instructor at NxtWave",
     review:
-      "Teaching Krishna has been rewarding. He blends strong design sense with clean, efficient code.",
+      "Creating intelligent applications using AI APIs, machine learning, and semantic search.",
     image: w1,
   },
   {
-    name: "Aditya Kshirsagar",
-    role: "Frontend Instructor at NxtWave",
+    name: "Problem Solving",
+    // role: "Frontend Instructor at NxtWave",
     review:
-      "As a frontend instructor, I’ve seen Krishna blend design clarity with clean, efficient frontend code.",
+      "Solving real-world problems through logical thinking and practical coding.",
     image: m2,
   },
   {
-    name: "Roshan Sahu",
-    role: "Computer Programing Mentor at NxtWave",
+    name: "Innovation & Continuous Learning",
+    // role: "Computer Programing Mentor at NxtWave",
     review:
-      "Krishna shows exceptional potential, turning ideas into polished design and code.",
+      "Exploring new technologies and turning creative ideas into useful applications.",
     image: w2,
   },
 ];
@@ -50,7 +50,7 @@ export default function Testimonials(){
  animate={{opacity:1, y:0}}
  transition={{duration: 0.6}}
  >
-What People Say
+What I Bring to the Table
 </motion.h2>
 
 
